@@ -1,0 +1,41 @@
+[
+	{
+		"name": "Forza 4",
+		"description1": "VW Golf R 2010 (466) - Silverstone GP",
+		"description2": "Free drive -> Hot lap. Difficulty: Expert but no clutch. Standing start.",
+		"show": true,
+		"laptimes" : [
+			{ "name": "Dude", "time": "1:23:23" },
+			{ "name": "Tude", "time": "2:23:23" }
+			{ "name": "Sude", "time": "DNF" }
+		]
+	},
+	{
+		"name": "WRC 2",
+		"description1": "Kimi Räikkönen - Jukojärvi 1",
+		"description2": "Difficulty: Advanced",
+		"show": true,
+		"laptimes" : [
+			{ "name": "Dude", "time": "1:23:23" },
+			{ "name": "Tude", "time": "2:23:23" }
+		]
+	},
+	{
+		"name": "3",
+		"description": "bar",
+		"show": true,
+		"laptimes" : [
+			{ "name": "Dude", "time": "1:23:23" },
+			{ "name": "Tude", "time": "2:23:23" }
+		]
+	},
+	{
+		"name": "4",
+		"description": "bar",
+		"show": true,
+		"laptimes" : [
+			{ "name": "Dude", "time": "1:23:23" },
+			{ "name": "Tude", "time": "2:23:23" }
+		]
+	}
+]
