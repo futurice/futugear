@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+/* line 5, ../sass/default.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 15, ../sass/default.scss */
+body {
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 90, color-stop(0%, #444444), color-stop(90%, #000000));
+  background: -webkit-radial-gradient(#444444, #000000 90%);
+  background: -moz-radial-gradient(#444444, #000000 90%);
+  background: -o-radial-gradient(#444444, #000000 90%);
+  background: radial-gradient(#444444, #000000 90%);
+  font-size: 1.8em;
+  overflow: hidden;
+}
+/* line 20, ../sass/default.scss */
+body .logo {
+  position: absolute;
+  top: 1em;
+  left: 1.2em;
+  height: 6em;
+}
+
+/* line 28, ../sass/default.scss */
+.views {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  height: 100%;
+  /* width determined in JS */
+  overflow: hidden;
+  -webkit-transition: left 1s ease-in-out;
+  -moz-transition: left 1s ease-in-out;
+  -o-transition: left 1s ease-in-out;
+  transition: left 1s ease-in-out;
+}
+/* line 40, ../sass/default.scss */
+.views .view {
+  float: left;
+  position: relative;
+  height: 100%;
+  /* width determined in JS */
+  /* margin-right determined in JS */
+}
+
+/* line 54, ../sass/default.scss */
+.board {
+  position: absolute;
+  bottom: 0;
+  left: 19%;
+  width: 52%;
+  height: 96%;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 90, color-stop(0%, rgba(0, 0, 0, 0.9)), color-stop(90%, #555655)), -webkit-gradient(radial, 0% 0%, 0, 0% 0%, 100, color-stop(0%, #ffffff), color-stop(100%, #555655));
+  background: -webkit-radial-gradient(rgba(0, 0, 0, 0.9), #555655 90%), -webkit-radial-gradient(top left, #ffffff, #555655);
+  background: -moz-radial-gradient(rgba(0, 0, 0, 0.9), #555655 90%), -moz-radial-gradient(top left, #ffffff, #555655);
+  background: -o-radial-gradient(rgba(0, 0, 0, 0.9), #555655 90%), -o-radial-gradient(top left, #ffffff, #555655);
+  background: radial-gradient(rgba(0, 0, 0, 0.9), #555655 90%), radial-gradient(top left, #ffffff, #555655);
+  -webkit-box-shadow: white 0 -0.2em 1em;
+  -moz-box-shadow: white 0 -0.2em 1em;
+  box-shadow: white 0 -0.2em 1em;
+  padding: 0 5%;
+}
+/* line 69, ../sass/default.scss */
+.board h1 {
+  position: relative;
+  font-size: 5em;
+  font-family: 'Impact', 'Arial Black', sans-serif;
+  text-shadow: -0.015em -0.015em #ca2833, 0.015em 0.015em #4c0000;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 76, ../sass/default.scss */
+.board h1 * {
+  width: 100%;
+  color: #9E0C11;
+}
+/* line 80, ../sass/default.scss */
+.board h1 .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  color: black;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0)));
+}
+/* line 95, ../sass/default.scss */
+.board .description1 {
+  color: #CACDD2;
+  text-align: center;
+  text-shadow: 0 0 5px black;
+  margin: 0 5% 0.5em 5%;
+  font-family: 'Arial Black', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0.3em;
+  font-size: 1em;
+}
+/* line 103, ../sass/default.scss */
+.board .description2 {
+  color: #CACDD2;
+  text-align: center;
+  text-shadow: 0 0 5px black;
+  margin: 0 5% 0.5em 5%;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 2em;
+  font-size: 0.7em;
+}
+/* line 110, ../sass/default.scss */
+.board .laptime {
+  background-color: white;
+  margin: 0 5% 0.5em 5%;
+  padding: 0.2em 2%;
+  font-family: 'Kaushan Script', cursive;
+  text-transform: uppercase;
+  -webkit-box-shadow: black 0.1em 0.1em;
+  -moz-box-shadow: black 0.1em 0.1em;
+  box-shadow: black 0.1em 0.1em;
+}
+/* line 118, ../sass/default.scss */
+.board .laptime .name {
+  float: left;
+  width: 70%;
+}
+/* line 122, ../sass/default.scss */
+.board .laptime .time {
+  width: 29%;
+}
