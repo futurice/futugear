@@ -12,10 +12,11 @@ body {
   background: -moz-radial-gradient(#444444, #000000 90%);
   background: -o-radial-gradient(#444444, #000000 90%);
   background: radial-gradient(#444444, #000000 90%);
+  background-attachment: fixed;
   font-size: 1.8em;
   overflow: hidden;
 }
-/* line 20, ../sass/default.scss */
+/* line 22, ../sass/default.scss */
 body .logo {
   position: absolute;
   top: 1em;
@@ -23,7 +24,7 @@ body .logo {
   height: 6em;
 }
 
-/* line 28, ../sass/default.scss */
+/* line 30, ../sass/default.scss */
 .views {
   position: absolute;
   top: 0;
@@ -37,7 +38,7 @@ body .logo {
   -o-transition: left 1s ease-in-out;
   transition: left 1s ease-in-out;
 }
-/* line 40, ../sass/default.scss */
+/* line 42, ../sass/default.scss */
 .views .view {
   float: left;
   position: relative;
@@ -46,7 +47,7 @@ body .logo {
   /* margin-right determined in JS */
 }
 
-/* line 54, ../sass/default.scss */
+/* line 56, ../sass/default.scss */
 .board {
   position: absolute;
   bottom: 0;
@@ -63,7 +64,7 @@ body .logo {
   box-shadow: white 0 -0.2em 1em;
   padding: 0 5%;
 }
-/* line 69, ../sass/default.scss */
+/* line 71, ../sass/default.scss */
 .board h1 {
   position: relative;
   font-size: 5em;
@@ -72,12 +73,12 @@ body .logo {
   text-align: center;
   text-transform: uppercase;
 }
-/* line 76, ../sass/default.scss */
+/* line 78, ../sass/default.scss */
 .board h1 * {
   width: 100%;
   color: #9E0C11;
 }
-/* line 80, ../sass/default.scss */
+/* line 82, ../sass/default.scss */
 .board h1 .mask {
   position: absolute;
   top: 0;
@@ -86,7 +87,7 @@ body .logo {
   color: black;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0)));
 }
-/* line 95, ../sass/default.scss */
+/* line 97, ../sass/default.scss */
 .board .description1 {
   color: #CACDD2;
   text-align: center;
@@ -97,7 +98,7 @@ body .logo {
   margin-bottom: 0.3em;
   font-size: 1em;
 }
-/* line 103, ../sass/default.scss */
+/* line 105, ../sass/default.scss */
 .board .description2 {
   color: #CACDD2;
   text-align: center;
@@ -107,7 +108,7 @@ body .logo {
   margin-bottom: 2em;
   font-size: 0.7em;
 }
-/* line 110, ../sass/default.scss */
+/* line 112, ../sass/default.scss */
 .board .laptime {
   background-color: white;
   margin: 0 5% 0.5em 5%;
@@ -118,12 +119,12 @@ body .logo {
   -moz-box-shadow: black 0.1em 0.1em;
   box-shadow: black 0.1em 0.1em;
 }
-/* line 118, ../sass/default.scss */
+/* line 120, ../sass/default.scss */
 .board .laptime .name {
   float: left;
   width: 70%;
 }
-/* line 122, ../sass/default.scss */
+/* line 124, ../sass/default.scss */
 .board .laptime .time {
   width: 29%;
 }
