@@ -14,6 +14,8 @@ $boardPadding: 5%;
 
 body {
 	@include background(radial-gradient(#444444, black 90%));
+    background-attachment: fixed;
+
 	font-size: 1.8em;
 	overflow: hidden;
 
