@@ -52,6 +52,7 @@ var app = {
 		var dataFilename = this._getDataFileName();
 		console.log("Downloading data from " + dataFilename);
 
+
 		window[this.DATA_CALLBACK_FUNCTION_NAME] = function(data) {
 
 			data = self._processData(data);
@@ -64,6 +65,7 @@ var app = {
 			}
 
 		}
+
 		$.ajax(this._getDataFileName(), {
 			dataType: 'jsonp'
 		});

@@ -1,4 +1,4 @@
-[
+dataCallback([
 	{
 		"name": "Forza 4",
 		"description1": "VW Golf R 2010 (466) - Silverstone GP",
@@ -6,7 +6,7 @@
 		"show": true,
 		"laptimes" : [
 			{ "name": "Dude", "time": "1:23:23" },
-			{ "name": "Tude", "time": "2:23:23" }
+			{ "name": "Tude", "time": "2:23:23" },
 			{ "name": "Sude", "time": "DNF" }
 		]
 	},
@@ -38,4 +38,4 @@
 			{ "name": "Tude", "time": "2:23:23" }
 		]
 	}
-]
+])
