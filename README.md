@@ -17,5 +17,10 @@ If you wish to commit something to the repo, please merge all your changes also 
 Credits and all the fame
 ------------------------
 
-Jouni Kaplas
+Jouni Kaplas   
 Tuomo Hakaoja
+
+License
+-------
+
+[MIT](LICENSE.txt)
